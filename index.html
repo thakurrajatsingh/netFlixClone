@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NetFlix</title>
+
+    <!-- internal css -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- fontawsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav id="nav">
+      <div class="logo">
+        <a href=""
+          ><img src="./pngwing.com.png" alt="" style="width: 8rem"
+        /></a>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">TV shows</a></li>
+          <li><a href="">Movies</a></li>
+          <li><a href="">New & Populour</a></li>
+          <li><a href="">My list</a></li>
+          <li><a href="">Browse by languages</a></li>
+        </ul>
+      </div>
+
+      <div class="nav_icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-sharp fa-solid fa-bell"></i>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+          alt=""
+          style="width: 30px"
+        />
+      </div>
+    </nav>
+    <header class="header" id="header">
+      <div
+        class="header_background container"
+        id="banner_cont"
+        style="
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
+      ></div>
+      <div class="overlay"></div>
+    </header>
+    <!-- navbar end -->
+    <!-- movie section start -->
+    <div class="movie_con container" id="movie-con"></div>
+    <!-- movie section end -->
+    <script src="./index.js"></script>
+  </body>
+</html>
